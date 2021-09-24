@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1
+{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.type
+{
+    color: rgba(189, 16, 16, 0.877);
+    font-size: 20px;
+}
+
+.box
+{
+    text-align: center;
+    margin: 60px 0px;  
+    padding: 0px;
+}
+
+h3
+{
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.normal
+{
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(180deg ,#253898 51%, #5737D6 100%);
+    border-color: #120E43;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    color: rgba(0, 0, 0, 0);
+}
+
+.onclickX
+{
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(180deg ,#FD297A 51%, #9424F0 100%);
+    border-color: #120E43;
+    font-size: 60px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+.onclickO
+{
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(180deg ,#538FFB 51%, #5B54FA 100%);
+    border-color: #120E43;
+    color: black;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+.result
+{
+    font-size: 35px;
+    margin-top: 20px;
+    color: rgba(255, 0, 0, 0.568);
+}
+
+.restart
+{
+    width: 150px;
+    height: 30px;
+    border: 1.5px solid red;
+    border-radius: 30px;
+    color: red;
+    font-size: 20px;
+    background-color: #120E43;
+}
+
+.win
+{
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(180deg , #00AC61 51%, #EFF54D 100%);
+    border-color: #120E43;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    color: black;
+}
+
+.disabled-button{
+    pointer-events: none;
+  }
+
+.names
+{
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    margin-left: 540px;
+    margin-top: 200px;
+    position: relative;
+    border: 5px solid transparent;
+    border-radius: 16px;
+    background: #120E43;
+    background-clip: padding-box;
+    padding: 10px;
+    box-shadow: 0 3px 9px black;
+    font-size: 30px;
+}
+
+.names::after
+{
+    position: absolute;
+    top: -4px; bottom: -4px;
+    left: -4px; right: -4px;
+    background: linear-gradient(to right, #FD297A 51%, #9424F0 100%);
+    content: '';
+    z-index: -1;
+    border-radius: 16px;
+}
+
+.player1
+{
+    margin-top: 30px;
+}
+
+.close
+{
+    width: 80px;
+    height: 50px;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 270px;
+    background-image: linear-gradient(180deg ,#FD297A 51%, #9424F0 100%);
+    border-radius: 20px;
+    
+}
+
+
+.input1::placeholder 
+{
+    background: linear-gradient(180deg ,#FD297A 51%, #9424F0 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+  .input1:not(:placeholder-shown) {
+    background: 
+      linear-gradient(#FD297A 51%, #9424F0 100%), 
+      #120E43;
+    -webkit-background-clip: text, padding-box;
+            background-clip: text, padding-box;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .input1 {
+    color:transparent;
+    height: 60px;
+    width: 360px;
+    font-size: 32px;
+    background: linear-gradient(#ffffff70, #ffffff);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .input1 {
+    display:inline-block;
+    background-color: dodgerblue;
+  }
+
+.name
+{
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    margin-left: 540px;
+    margin-top: 200px;
+    position: relative;
+    border: 5px solid transparent;
+    border-radius: 16px;
+    background: #120E43;
+    background-clip: padding-box;
+    padding: 10px;
+    box-shadow: 0 3px 9px black;
+    font-size: 30px;
+}
+
+.name::after
+{
+    position: absolute;
+    top: -4px; bottom: -4px;
+    left: -4px; right: -4px;
+    background: linear-gradient(to right, #538FFB 51%, #5B54FA 100%);
+    content: '';
+    z-index: -1;
+    border-radius: 16px;
+}
+
+.player1
+{
+    margin-top: 30px;
+}
+
+.close2
+{
+    width: 80px;
+    height: 50px;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 270px;
+    background-image: linear-gradient(180deg ,#538FFB 51%, #5B54FA 100%);
+    border-radius: 20px;
+    
+}
+
+
+.input2::placeholder {
+    background: linear-gradient(180deg ,#538FFB 51%, #5B54FA 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .input2:not(:placeholder-shown) {
+    background: 
+      linear-gradient(#538FFB 51%, #5B54FA 100%), 
+      #120E43;
+    -webkit-background-clip: text, padding-box;
+            background-clip: text, padding-box;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .input2 {
+    color:transparent;
+    height: 60px;
+    width: 360px;
+    font-size: 32px;
+    background: linear-gradient(#ffffff70, #ffffff);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .input2 {
+    display:inline-block;
+    background-color: dodgerblue;
+  }
+
+  .note
+  {
+      color: red;
+      margin-top: 35px;
+  }
+  

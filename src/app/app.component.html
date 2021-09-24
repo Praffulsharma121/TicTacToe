@@ -1,0 +1,13 @@
+
+<button class="back" *ngIf = "hasRoute('/single') || hasRoute('/multi')" routerLink= "/">Back</button>
+<span  *ngIf = "!hasRoute('/single') && !hasRoute('/multi')">
+    <h1 class="nav" >TicTacToe</h1>
+
+    <nav class="nav">
+        <a routerLink= "/single"><button class="single">Single Player</button></a>
+        <a routerLink= "/multi"><button class="multi">Multi Player</button></a>
+    </nav>
+</span>
+
+
+<router-outlet></router-outlet>

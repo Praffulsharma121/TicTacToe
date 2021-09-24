@@ -1,0 +1,36 @@
+
+<div [ngClass]= "names1" *ngIf = "start">
+    <form *ngIf = "player1" class="player1">
+        <mat-form-field>
+            <mat-label><b>Player (X) name</b></mat-label>
+            <input [(ngModel)]= "username1" type="text" matInput placeholder="name" [ngModelOptions]="{standalone: true}" class = "input">
+        </mat-form-field>
+    </form>
+    <button mat-button (click) = "next()" class="close" *ngIf = "player1">Next</button>
+    <p class="note" *ngIf = fill>*Please enter your name</p>
+</div>
+
+
+<div *ngIf = "!start">
+    <h1>TicTacToe <span class="type">Single player</span></h1>
+    <div class="box">
+        
+        <h3 class="head">{{chance}}</h3>
+        <button (click) = "btn1()" [ngClass] = "btn_style1" [disabled] = "Btn_1">{{block1}}</button>
+        <button (click) = "btn2()" [ngClass] = "btn_style2" [disabled] = "Btn_2">{{block2}}</button>
+        <button (click) = "btn3()" [ngClass] = "btn_style3" [disabled] = "Btn_3">{{block3}}</button>
+        <br>
+        <button (click) = "btn4()" [ngClass] = "btn_style4" [disabled] = "Btn_4">{{block4}}</button>
+        <button (click) = "btn5()" [ngClass] = "btn_style5" [disabled] = "Btn_5">{{block5}}</button>
+        <button (click) = "btn6()" [ngClass] = "btn_style6" [disabled] = "Btn_6">{{block6}}</button>
+        <br>
+        <button (click) = "btn7()" [ngClass] = "btn_style7" [disabled] = "Btn_7">{{block7}}</button>
+        <button (click) = "btn8()" [ngClass] = "btn_style8" [disabled] = "Btn_8">{{block8}}</button>
+        <button (click) = "btn9()" [ngClass] = "btn_style9" [disabled] = "Btn_9">{{block9}}</button>
+        <h3 class="result">{{winner}}</h3>
+        <button *ngIf = "Restart" class="restart" (click) = "new_game()">
+            Start new game
+        </button>
+    </div>
+</div>
+
