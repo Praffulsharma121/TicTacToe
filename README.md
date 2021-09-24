@@ -1,10 +1,21 @@
 # TicTacToe
 
+TicTacToe game build using Angular with both single-player and multi-player options.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
+
+## Single Player-
+
+![singleplayer](https://user-images.githubusercontent.com/63968420/134705617-1b012a6d-6f1f-420f-8f7a-20ea4fab2ec0.gif)
+
+## Multi Player-
+
+![multiplayer](https://user-images.githubusercontent.com/63968420/134708716-ff6a7b1a-f53a-4ecb-88d5-42ca4b3bf62c.gif)
+
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm install` and  `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
