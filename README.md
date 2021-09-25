@@ -4,13 +4,23 @@ TicTacToe game build using Angular with both single-player and multi-player opti
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
 
+## Screenshots -
+
+![pic1](https://user-images.githubusercontent.com/63968420/134770709-592f4327-b7c6-4863-b49c-c9220b1edc16.png)
+
+![pic2](https://user-images.githubusercontent.com/63968420/134770725-5a53e3e2-1964-4166-b0d0-4c9944e2a823.png)
+
+![pic3](https://user-images.githubusercontent.com/63968420/134770784-32b3a0e2-0ccc-40d5-9844-a380686e3c54.png)
+
 ## Single Player-
 
 ![singleplayer](https://user-images.githubusercontent.com/63968420/134705617-1b012a6d-6f1f-420f-8f7a-20ea4fab2ec0.gif)
 
 ## Multi Player-
 
-![multiplayer](https://user-images.githubusercontent.com/63968420/134708716-ff6a7b1a-f53a-4ecb-88d5-42ca4b3bf62c.gif)
+![multiplayer](https://user-images.githubusercontent.com/63968420/134770698-83139b51-5f5a-4218-8646-6d399af586ad.gif)
+
+### Start Playing - https://praffulsharma121.github.io/TicTacToe/
 
 
 ## Development server
